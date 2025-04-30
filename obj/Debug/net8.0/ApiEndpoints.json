@@ -1,0 +1,80 @@
+[
+  {
+    "ContainingType": "modul10_103022300121.Controllers.MovieController",
+    "Method": "GetAll",
+    "RelativePath": "api/Movies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "modul10_103022300121.Movie",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "modul10_103022300121.Controllers.MovieController",
+    "Method": "Add",
+    "RelativePath": "api/Movies",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newMovie",
+        "Type": "modul10_103022300121.Movie",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "modul10_103022300121.Controllers.MovieController",
+    "Method": "GetByIndex",
+    "RelativePath": "api/Movies/{index}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "index",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "modul10_103022300121.Movie",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "modul10_103022300121.Controllers.MovieController",
+    "Method": "Delete",
+    "RelativePath": "api/Movies/{index}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "index",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
